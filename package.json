@@ -1,0 +1,11 @@
+{
+  "name": "katsu",
+  "version": "1.0.0",
+  "description": "Website of Katrina Surla",
+  "main": "index.js",
+  "author": "Aris Acoba",
+  "license": "MIT",
+  "dependencies": {
+    "metalsmith": "^2.3.0"
+  }
+}
