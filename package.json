@@ -2,8 +2,13 @@
   "name": "katsu",
   "version": "1.0.0",
   "description": "Website of Katrina Surla",
-  "main": "index.js",
+  "main": "metalsmith.js",
   "author": "Aris Acoba",
+  "scripts": {
+    "build": "node metalsmith.js",
+    "build:prod": "NODE_ENV=production node metalsmith.js",
+    "start": "yarn run metalstart"
+  },
   "license": "MIT",
   "dependencies": {
     "metalsmith": "^2.3.0",
