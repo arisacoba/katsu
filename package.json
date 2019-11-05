@@ -11,10 +11,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "jstransformer-pug": "^0.3.0",
     "metalsmith": "^2.3.0",
     "metalsmith-fingerprint-ignore": "^2.0.0",
     "metalsmith-jstransformer": "^0.13.2",
     "metalsmith-paths": "^3.0.1",
-    "metalsmith-sense-sass": "^2.1.0"
+    "metalsmith-sense-sass": "^2.1.0",
+    "modularscale-sass": "^3.0.10",
+    "pug": "^2.0.4",
+    "sanitize.css": "^11.0.0"
   }
 }
