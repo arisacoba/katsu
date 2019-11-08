@@ -1,0 +1,9 @@
+.header-title {
+  margin-bottom: 32px;
+  > .caption {
+    font-weight: normal;
+    &.-muted {
+      color: $text-b;
+    }
+  }
+}
