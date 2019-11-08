@@ -1,0 +1,9 @@
+.overview-section {
+  > .description {
+    font-size: ms(1);
+    margin-bottom: 32px;
+  }
+  > .actions {
+    display: flex;
+  }
+}

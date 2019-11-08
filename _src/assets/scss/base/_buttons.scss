@@ -1,0 +1,15 @@
+button {
+  padding: 12px 24px;
+  border: 1px solid $text-a;
+  color: $text-a;
+  margin-right: 16px;
+  font-size: $font-size;
+
+  &.-primary {
+    background-color: $color-a;
+    color: $color-white;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}
