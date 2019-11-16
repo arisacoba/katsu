@@ -1,6 +1,10 @@
 .overview-section {
   margin-bottom: $section-gap;
 
+  @include viewport-4 {
+    margin-bottom: $section-gap-sm;
+  }
+
   > .image {
     position: relative;
     width: 100vw;
