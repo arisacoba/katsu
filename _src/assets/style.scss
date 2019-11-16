@@ -1,43 +1,43 @@
-@import './../../node_modules/sanitize.css/sanitize.css';
-@import './../../node_modules/modularscale-sass/stylesheets/modularscale';
+@import "./../../node_modules/sanitize.css/sanitize.css";
+@import "./../../node_modules/modularscale-sass/stylesheets/modularscale";
 
 @font-face {
-  font-family: 'HK Groteski';
-  src: url('./fonts/HKGrotesk-Regular.eot');
-  src: url('./fonts/HKGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
-      url('./fonts/HKGrotesk-Regular.woff2') format('woff2'),
-      url('./fonts/HKGrotesk-Regular.woff') format('woff'),
-      url('./fonts/HKGrotesk-Regular.ttf') format('truetype'),
-      url('./fonts/HKGrotesk-Regular.svg#HKGrotesk-Regular') format('svg');
+  font-family: "HK Groteski";
+  src: url("./fonts/HKGrotesk-Regular.eot");
+  src: url("./fonts/HKGrotesk-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HKGrotesk-Regular.woff2") format("woff2"),
+    url("./fonts/HKGrotesk-Regular.woff") format("woff"),
+    url("./fonts/HKGrotesk-Regular.ttf") format("truetype"),
+    url("./fonts/HKGrotesk-Regular.svg#HKGrotesk-Regular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'HK Groteski';
-  src: url('./fonts/HKGrotesk-Bold.eot');
-  src: url('./fonts/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
-      url('./fonts/HKGrotesk-Bold.woff2') format('woff2'),
-      url('./fonts/HKGrotesk-Bold.woff') format('woff'),
-      url('./fonts/HKGrotesk-Bold.ttf') format('truetype'),
-      url('./fonts/HKGrotesk-Bold.svg#HKGrotesk-Bold') format('svg');
+  font-family: "HK Groteski";
+  src: url("./fonts/HKGrotesk-Bold.eot");
+  src: url("./fonts/HKGrotesk-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HKGrotesk-Bold.woff2") format("woff2"),
+    url("./fonts/HKGrotesk-Bold.woff") format("woff"),
+    url("./fonts/HKGrotesk-Bold.ttf") format("truetype"),
+    url("./fonts/HKGrotesk-Bold.svg#HKGrotesk-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 
-@import './scss/variables';
-@import './scss/media';
-@import './scss/base/body';
-@import './scss/base/modularscale';
-@import './scss/base/typography';
-@import './scss/base/buttons';
-@import './scss/base/links';
-@import './scss/components/main-section';
-@import './scss/components/content-container';
-@import './scss/components/image-section';
-@import './scss/components/header-title';
-@import './scss/components/overview-section';
-@import './scss/components/header-content-section';
-@import './scss/components/brands-list';
-@import './scss/components/experience-list';
-@import './scss/components/footer-section';
+@import "./scss/variables";
+@import "./scss/media";
+@import "./scss/base/body";
+@import "./scss/base/modularscale";
+@import "./scss/base/typography";
+@import "./scss/base/buttons";
+@import "./scss/base/links";
+@import "./scss/components/main-section";
+@import "./scss/components/content-container";
+@import "./scss/components/image-section";
+@import "./scss/components/header-title";
+@import "./scss/components/overview-section";
+@import "./scss/components/header-content-section";
+@import "./scss/components/brands-list";
+@import "./scss/components/experience-list";
+@import "./scss/components/footer-section";
