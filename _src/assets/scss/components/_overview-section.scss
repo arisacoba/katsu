@@ -1,7 +1,14 @@
 .overview-section {
+  margin-bottom: $section-gap;
   > .description {
     font-size: ms(1);
+    line-height: 1.4em;
     margin-bottom: 32px;
+
+    > p:first-child {
+      font-size: ms(2);
+      line-height: 1.4em;
+    }
   }
   > .actions {
     display: flex;

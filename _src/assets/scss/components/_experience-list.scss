@@ -1,0 +1,26 @@
+.experience-list {
+  > .item {
+    border-top: 1px solid $text-a;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    &:last-child {
+      border-bottom: 1px solid $text-a;
+    }
+
+    > .header {
+      > .title {
+        font-size: ms(3);
+        line-height: 1.4;
+      }
+      > .company {
+        color: $text-b;
+      }
+    }
+    > .datefield {
+      color: $text-b;
+      font-size: ms(2);
+    }
+  }
+}

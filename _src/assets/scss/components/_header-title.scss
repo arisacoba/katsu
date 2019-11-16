@@ -1,5 +1,10 @@
 .header-title {
-  margin-bottom: 32px;
+  margin-bottom: 40px;
+
+  > .title {
+    font-size: ms(7);
+    line-height: 1;
+  }
   > .caption {
     font-weight: normal;
     &.-muted {
