@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-rscss/config",
+    "stylelint-config-prettier"
+  ]
+}
