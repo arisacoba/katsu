@@ -7,7 +7,12 @@
   "scripts": {
     "build": "node metalsmith.js",
     "build:prod": "NODE_ENV=production node metalsmith.js",
-    "start": "yarn run metalstart"
+    "start": "yarn run metalstart",
+    "lint:css": "stylelint ./_src/assets/**/*.scss",
+    "lint:js": "eslint \"./_src/assets/**/*.{js,jsx}\"",
+    "lint": "yarn lint:css && yarn lint:js && yarn run flow && yarn prettier:check",
+    "prettier:fix": "prettier-eslint --write '_src/assets/**/*.scss' '_src/assets/**/*.js{,x}'",
+    "prettier:check": "prettier-eslint --list-different '_src/assets/**/*.scss' '_src/assets/**/*.js{,x}'"
   },
   "license": "MIT",
   "dependencies": {
@@ -21,5 +26,12 @@
     "modularscale-sass": "^3.0.10",
     "pug": "^2.0.4",
     "sanitize.css": "^11.0.0"
+  },
+  "devDependencies": {
+    "prettier-eslint-cli": "^5.0.0",
+    "stylelint": "^12.0.0",
+    "stylelint-config-prettier": "^6.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-rscss": "^0.4.0"
   }
 }

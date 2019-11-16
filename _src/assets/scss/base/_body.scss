@@ -1,12 +1,14 @@
-html{
+html {
   box-sizing: box-content;
 }
 
-*,*::before,*::after{
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-body{
+body {
   background-color: $bg-a;
   color: $text-a;
   font-family: $font-a;
