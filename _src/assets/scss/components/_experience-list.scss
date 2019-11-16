@@ -13,6 +13,10 @@
       > .title {
         font-size: ms(3);
         line-height: 1.4;
+
+        @include viewport-4 {
+          font-size: ms(2);
+        }
       }
       > .company {
         color: $text-b;
@@ -21,6 +25,10 @@
     > .datefield {
       color: $text-b;
       font-size: ms(2);
+
+      @include viewport-4 {
+        font-size: ms(1);
+      }
     }
   }
 }
