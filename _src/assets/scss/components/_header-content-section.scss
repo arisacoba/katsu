@@ -1,0 +1,15 @@
+.header-content-section {
+  display: flex;
+  margin-bottom: $section-gap;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  > .header {
+    width: 120px;
+    margin-right: 56px;
+  }
+  > .content {
+    flex-grow: 1;
+  }
+}

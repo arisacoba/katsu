@@ -8,7 +8,8 @@ html(lang="en")
 
      link(rel="stylesheet" href=fingerprint["assets/style.css"])
    body
-     include ../partials/header.pug
-     block content
-     include ../partials/footer.pug
+     .main-section
+       include ../partials/header.pug
+       block content
+       include ../partials/footer.pug
      script(src="assets/app.js")

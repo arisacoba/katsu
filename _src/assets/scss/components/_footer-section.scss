@@ -1,0 +1,11 @@
+.footer-section {
+  width: 100%;
+  margin-top: 80px;
+  border-top: 1px solid $text-a;
+  display: flex;
+  flex-direction: row-reverse;
+
+  > .label {
+    text-align: right;
+  }
+}
