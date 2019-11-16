@@ -1,5 +1,6 @@
 .image-section {
   > .image {
-    max-width: 320px;
+    max-width: 400px;
+    transform: translateX(-80px);
   }
 }
