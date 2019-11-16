@@ -10,6 +10,10 @@
     }
 
     > .header {
+      > .title {
+        font-size: ms(3);
+        line-height: 1.4;
+      }
       > .company {
         color: $text-b;
       }
