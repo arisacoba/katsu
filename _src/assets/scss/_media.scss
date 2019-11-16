@@ -4,7 +4,7 @@ $viewport-9: 900px;
 $viewport-12: 1200px;
 
 @mixin viewport-4 {
-  @media (max-width: #{$viewport-4}) {
+  @media (min-width: #{$viewport-4}) and (max-width: #{$viewport-7 - 1px}) {
     @content;
   }
 }

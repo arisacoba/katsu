@@ -41,5 +41,19 @@
   }
   > .actions {
     display: flex;
+
+    @include viewport-4 {
+      flex-direction: column;
+
+      > .btn {
+        margin-right: 0;
+        margin-bottom: 16px;
+        flex-grow: 1;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }
