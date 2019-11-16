@@ -1,0 +1,11 @@
+.content-container {
+  display: flex;
+
+  > .image {
+    margin-right: 120px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 240px;
+    align-self: flex-start;
+  }
+}
