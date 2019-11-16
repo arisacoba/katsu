@@ -1,10 +1,11 @@
-button {
+.btn-component {
   padding: 12px 24px;
   border: 1px solid $text-a;
   background-color: $color-white;
   color: $text-a;
   margin-right: 16px;
   font-size: $font-size;
+  cursor: pointer;
 
   &.-primary {
     background-color: $color-a;
