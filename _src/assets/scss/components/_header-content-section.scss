@@ -1,6 +1,11 @@
 .header-content-section {
   display: flex;
   margin-bottom: $section-gap;
+
+  @include viewport-4 {
+    display: block;
+    margin-bottom: $section-gap-sm;
+  }
   &:last-child {
     margin-bottom: 0;
   }
@@ -8,8 +13,18 @@
   > .header {
     width: 128px;
     margin-right: 56px;
+
+    @include viewport-4 {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
   }
   > .content {
     flex-grow: 1;
+
+    @include viewport-4 {
+      margin-left: 40px;
+    }
   }
 }

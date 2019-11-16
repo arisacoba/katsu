@@ -1,9 +1,13 @@
 .footer-section {
   width: 100%;
-  margin-top: 240px;
+  margin-top: $section-gap;
   border-top: 1px solid $text-a;
   display: flex;
   justify-content: space-between;
+
+  @include viewport-4 {
+    display: block;
+  }
 
   > .label {
     text-align: right;

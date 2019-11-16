@@ -1,21 +1,28 @@
-$phone-width: 768px;
-$tablet-width: 768px;
-$desktop-width: 1024px;
+$viewport-4: 480px;
+$viewport-7: 768px;
+$viewport-9: 900px;
+$viewport-12: 1200px;
 
-@mixin phone {
-  @media (max-width: #{$phone-width}) {
+@mixin viewport-4 {
+  @media (max-width: #{$viewport-7 - 1px}) {
     @content;
   }
 }
 
-@mixin tablet {
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+@mixin viewport-7 {
+  @media (min-width: #{$viewport-7}) and (max-width: #{$viewport-9 - 1px}) {
     @content;
   }
 }
 
-@mixin desktop {
-  @media (min-width: #{$desktop-width}) {
+@mixin viewport-9 {
+  @media (min-width: #{$viewport-9}) and (max-width: #{$viewport-12 - 1px}) {
+    @content;
+  }
+}
+
+@mixin viewport-12 {
+  @media (min-width: #{$viewport-12}) {
     @content;
   }
 }

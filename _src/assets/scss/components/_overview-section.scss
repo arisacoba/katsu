@@ -1,5 +1,39 @@
 .overview-section {
   margin-bottom: $section-gap;
+
+  @include viewport-4 {
+    margin-bottom: $section-gap-sm;
+  }
+
+  > .image {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-bottom: 40px;
+
+    @include viewport-9 {
+      width: 400px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-142%, -50%);
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    @include viewport-12 {
+      width: 400px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-150%, -50%);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
   > .description {
     font-size: ms(1);
     line-height: 1.4em;
@@ -8,9 +42,27 @@
     > p:first-child {
       font-size: ms(2);
       line-height: 1.4em;
+
+      @include viewport-4 {
+        font-size: ms(1);
+      }
     }
   }
   > .actions {
     display: flex;
+
+    @include viewport-4 {
+      flex-direction: column;
+
+      > .btn {
+        margin-right: 0;
+        margin-bottom: 16px;
+        flex-grow: 1;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
   }
 }

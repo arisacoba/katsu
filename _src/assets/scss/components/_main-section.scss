@@ -1,6 +1,17 @@
 .main-section {
-  margin: 240px auto 80px;
-  max-width: 1200px;
-  padding-left: 32px;
-  padding-right: 32px;
+  margin: 96px 32px 56px;
+
+  @include viewport-9 {
+    margin: 200px auto 80px;
+    max-width: 900px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  @include viewport-12 {
+    margin: 240px auto 80px;
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }

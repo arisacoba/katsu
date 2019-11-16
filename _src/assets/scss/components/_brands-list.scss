@@ -7,6 +7,10 @@
     font-size: ms(4);
     margin-bottom: 8px;
     line-height: 1.2em;
+
+    @include viewport-4 {
+      font-size: ms(2);
+    }
     &:nth-child(7n) {
       margin-bottom: 80px;
     }
