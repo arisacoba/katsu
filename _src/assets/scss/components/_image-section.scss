@@ -1,6 +1,16 @@
 .image-section {
+  margin: 0;
+
   > .image {
-    max-width: 400px;
-    transform: translateX(-80px);
+    width: 100%;
+    object-fit: cover;
+    height: 520px;
+
+    @include viewport-9 {
+      height: auto;
+    }
+    @include viewport-12 {
+      height: auto;
+    }
   }
 }

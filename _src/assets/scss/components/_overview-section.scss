@@ -1,5 +1,34 @@
 .overview-section {
   margin-bottom: $section-gap;
+
+  > .image {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    @include viewport-9 {
+      width: 400px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-142%, -50%);
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    @include viewport-12 {
+      width: 400px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-150%, -50%);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
   > .description {
     font-size: ms(1);
     line-height: 1.4em;

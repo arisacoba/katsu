@@ -1,11 +1,13 @@
 .content-container {
   display: flex;
+  justify-content: flex-end;
 
-  > .image {
-    margin-right: 56px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 240px;
-    align-self: flex-start;
+  > .main {
+    @include viewport-9 {
+      max-width: 528px;
+    }
+    @include viewport-12 {
+      max-width: 712px;
+    }
   }
 }
