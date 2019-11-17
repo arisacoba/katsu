@@ -13,6 +13,9 @@
   > .header {
     width: 128px;
     margin-right: 56px;
+    &.-nowrap {
+      white-space: nowrap;
+    }
 
     @include viewport-4 {
       width: 100%;
