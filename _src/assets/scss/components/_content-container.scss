@@ -4,10 +4,10 @@
 
   > .main {
     @include viewport-9 {
-      max-width: 528px;
+      max-width: 504px;
     }
     @include viewport-12 {
-      max-width: 712px;
+      max-width: 744px;
     }
   }
 }

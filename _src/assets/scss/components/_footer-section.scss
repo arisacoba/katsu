@@ -1,13 +1,23 @@
 .footer-section {
   width: 100%;
   margin-top: $section-gap;
+  padding-bottom: 64px;
   border-top: 1px solid $text-a;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  background-color: $color-white;
 
   @include viewport-4 {
     display: block;
     text-align: right;
+  }
+  @include viewport-9 {
+    padding-bottom: 80px;
+  }
+  @include viewport-9 {
+    padding-bottom: 80px;
   }
 
   > .label {
