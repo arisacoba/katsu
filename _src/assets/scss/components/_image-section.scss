@@ -1,5 +1,7 @@
 .image-section {
   margin: 0;
+  background-color: $text-b;
+  min-height: 520px;
 
   > .image {
     width: 100%;
