@@ -9,7 +9,12 @@
       border-bottom: 1px solid $text-a;
     }
 
+    @include viewport-4 {
+      flex-direction: column;
+    }
+
     > .header {
+      padding-right: 16px;
       > .title {
         font-size: ms(3);
         line-height: 1.4;
@@ -28,6 +33,8 @@
 
       @include viewport-4 {
         font-size: ms(1);
+        margin-top: 8px;
+        text-align: right;
       }
     }
   }
