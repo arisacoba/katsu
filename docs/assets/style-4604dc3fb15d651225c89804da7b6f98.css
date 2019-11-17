@@ -538,7 +538,7 @@ textarea,
 }
 
 @font-face {
-  font-family: "HK Groteski";
+  font-family: "HK Grotesk";
   src: url("./fonts/HKGrotesk-Regular.eot");
   src: url("./fonts/HKGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/HKGrotesk-Regular.woff2") format("woff2"), url("./fonts/HKGrotesk-Regular.woff") format("woff"), url("./fonts/HKGrotesk-Regular.ttf") format("truetype"), url("./fonts/HKGrotesk-Regular.svg#HKGrotesk-Regular") format("svg");
   font-weight: normal;
@@ -546,7 +546,7 @@ textarea,
 }
 
 @font-face {
-  font-family: "HK Groteski";
+  font-family: "HK Grotesk";
   src: url("./fonts/HKGrotesk-Bold.eot");
   src: url("./fonts/HKGrotesk-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/HKGrotesk-Bold.woff2") format("woff2"), url("./fonts/HKGrotesk-Bold.woff") format("woff"), url("./fonts/HKGrotesk-Bold.ttf") format("truetype"), url("./fonts/HKGrotesk-Bold.svg#HKGrotesk-Bold") format("svg");
   font-weight: bold;
