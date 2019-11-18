@@ -15,4 +15,8 @@ body {
   font-size: $font-size;
   line-height: 1.6em;
   overflow-x: hidden;
+  opacity: 0;
+  animation: 0.2s fade-in ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
 }
