@@ -1,0 +1,12 @@
+.image-floating {
+  width: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -64%);
+  z-index: 2;
+
+  > .image {
+    width: 100%;
+  }
+}
