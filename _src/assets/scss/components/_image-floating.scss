@@ -1,0 +1,28 @@
+.image-floating {
+  @include viewport-4 {
+    display: none;
+  }
+  @include viewport-7 {
+    display: none;
+  }
+
+  width: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-104%, -64%);
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+
+  &.-show {
+    transition: 0.2s;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-104%, -62%);
+  }
+
+  > .image {
+    width: 100%;
+  }
+}

@@ -3,10 +3,51 @@
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+  position: relative;
+  z-index: 3;
+
   > li {
     font-size: ms(4);
     margin-bottom: 8px;
     line-height: 1.2em;
+
+    &[data-js-image-trigger] {
+      transition: 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateX(8px);
+      }
+      &::after {
+        content: "1";
+        vertical-align: super;
+        font-size: ms(-5);
+        margin-left: 4px;
+      }
+
+      @include viewport-4 {
+        transition: 0;
+        cursor: default;
+
+        &:hover {
+          transform: translateX(0);
+        }
+        &::after {
+          content: "";
+        }
+      }
+      @include viewport-7 {
+        transition: 0;
+        cursor: default;
+
+        &:hover {
+          transform: translateX(0);
+        }
+        &::after {
+          content: "";
+        }
+      }
+    }
 
     @include viewport-4 {
       font-size: ms(2);
