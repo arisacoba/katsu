@@ -1,4 +1,11 @@
 .image-floating {
+  @include viewport-4 {
+    display: none;
+  }
+  @include viewport-7 {
+    display: none;
+  }
+
   width: 400px;
   position: fixed;
   top: 50%;

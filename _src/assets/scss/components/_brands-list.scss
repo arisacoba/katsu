@@ -19,10 +19,33 @@
         transform: translateX(8px);
       }
       &::after {
-        content: '1';
+        content: "1";
         vertical-align: super;
         font-size: ms(-5);
         margin-left: 4px;
+      }
+
+      @include viewport-4 {
+        transition: 0;
+        cursor: default;
+
+        &:hover {
+          transform: translateX(0);
+        }
+        &::after {
+          content: "";
+        }
+      }
+      @include viewport-7 {
+        transition: 0;
+        cursor: default;
+
+        &:hover {
+          transform: translateX(0);
+        }
+        &::after {
+          content: "";
+        }
       }
     }
 
