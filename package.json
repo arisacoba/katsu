@@ -24,7 +24,7 @@
     "metalsmith-sense-sass": "^2.1.0",
     "metalsmith-start": "^2.0.1",
     "modularscale-sass": "^3.0.10",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "sanitize.css": "^11.0.0"
   },
   "devDependencies": {
